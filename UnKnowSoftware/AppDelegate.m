@@ -26,9 +26,15 @@
                                                           [NSValue valueWithUIOffset:UIOffsetMake(0, 0)], UITextAttributeTextShadowOffset,
                                                           [UIFont fontWithName:@"Arial-Bold" size:0.0], UITextAttributeFont,
                                                           nil]];
-    [[UITabBar appearance] setTintColor:[UIColor blueColor]];
-//    [];
-//    [[UITabBar appearance] setBackgroundColor: [UIColor blueColor]];
+    [[UITabBar appearance] setBarTintColor:[UIColor redColor]];
+    
+//    [[UITabBarItem appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], UITextAttributeTextColor, nil]
+//                                             forState: UIControlStateNormal];
+    [[UITabBar appearance] setSelectedImageTintColor: [UIColor whiteColor]];
+//    [[UITabBarItem appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], UITextAttributeTextColor, nil]
+//                                             forState: UIControlStateHighlighted];
+//    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationBarImage"]];
     
     return YES;
 }

@@ -33,7 +33,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -42,9 +42,7 @@
         case 0:
             cell = [tableView dequeueReusableCellWithIdentifier:@"_chuangye_One"];
             break;
-        case 1:
-            cell = [tableView dequeueReusableCellWithIdentifier:@"_chuangye_Two"];
-            break;
+        
         default:
             cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Default"];
             break;
@@ -56,7 +54,7 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0:
-            return 120;
+            return 150;
             break;
         case 1:
             return 30;
@@ -66,6 +64,14 @@
             break;
     }
     return 30;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 15;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFootderInSection:(NSInteger)section{
+    return 5;
 }
 
 
