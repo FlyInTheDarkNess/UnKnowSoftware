@@ -17,6 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationBarImage"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                          [UIColor whiteColor], UITextAttributeTextColor,
+                                                          [UIColor colorWithRed:0 green:0.7 blue:0.8 alpha:1], UITextAttributeTextShadowColor,
+                                                          [NSValue valueWithUIOffset:UIOffsetMake(0, 0)], UITextAttributeTextShadowOffset,
+                                                          [UIFont fontWithName:@"Arial-Bold" size:0.0], UITextAttributeFont,
+                                                          nil]];
+    [[UITabBar appearance] setTintColor:[UIColor blueColor]];
+//    [];
+//    [[UITabBar appearance] setBackgroundColor: [UIColor blueColor]];
+    
     return YES;
 }
 
