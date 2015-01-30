@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE5507481A7AEFFD00CE69B2 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5507471A7AEFFD00CE69B2 /* ProjectViewController.m */; };
+		AE55074C1A7B2AA900CE69B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE55074A1A7B2AA900CE69B2 /* LoginViewController.m */; };
 		AE5C41741A7A7DC900C78A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C41731A7A7DC900C78A77 /* main.m */; };
 		AE5C41771A7A7DC900C78A77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C41761A7A7DC900C78A77 /* AppDelegate.m */; };
 		AE5C417A1A7A7DC900C78A77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C41791A7A7DC900C78A77 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		AE5C417F1A7A7DC900C78A77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5C417E1A7A7DC900C78A77 /* Images.xcassets */; };
 		AE5C41821A7A7DC900C78A77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5C41801A7A7DC900C78A77 /* LaunchScreen.xib */; };
 		AE5C418E1A7A7DC900C78A77 /* UnKnowSoftwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C418D1A7A7DC900C78A77 /* UnKnowSoftwareTests.m */; };
+		AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE786A091A7B589400367E92 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		AE5507461A7AEFFD00CE69B2 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
 		AE5507471A7AEFFD00CE69B2 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		AE5507491A7B2AA900CE69B2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AE55074A1A7B2AA900CE69B2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AE5C416E1A7A7DC900C78A77 /* UnKnowSoftware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnKnowSoftware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C41721A7A7DC900C78A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5C41731A7A7DC900C78A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 		AE5C41871A7A7DC900C78A77 /* UnKnowSoftwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnKnowSoftwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C418C1A7A7DC900C78A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5C418D1A7A7DC900C78A77 /* UnKnowSoftwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnKnowSoftwareTests.m; sourceTree = "<group>"; };
+		AE786A081A7B589400367E92 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		AE786A091A7B589400367E92 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 				AE5C41971A7A86DD00C78A77 /* ViewControllers */,
 				AE5C41751A7A7DC900C78A77 /* AppDelegate.h */,
 				AE5C41761A7A7DC900C78A77 /* AppDelegate.m */,
+				AE5507491A7B2AA900CE69B2 /* LoginViewController.h */,
+				AE55074A1A7B2AA900CE69B2 /* LoginViewController.m */,
 				AE5C41781A7A7DC900C78A77 /* ViewController.h */,
 				AE5C41791A7A7DC900C78A77 /* ViewController.m */,
 				AE5C417B1A7A7DC900C78A77 /* Main.storyboard */,
@@ -126,6 +134,7 @@
 		AE5C41971A7A86DD00C78A77 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AE786A071A7B581A00367E92 /* 我的 */,
 				AE5C41981A7A870F00C78A77 /* 创业项目 */,
 			);
 			path = ViewControllers;
@@ -138,6 +147,15 @@
 				AE5507471A7AEFFD00CE69B2 /* ProjectViewController.m */,
 			);
 			path = "创业项目";
+			sourceTree = "<group>";
+		};
+		AE786A071A7B581A00367E92 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				AE786A081A7B589400367E92 /* MyViewController.h */,
+				AE786A091A7B589400367E92 /* MyViewController.m */,
+			);
+			path = "我的";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +207,7 @@
 				TargetAttributes = {
 					AE5C416D1A7A7DC900C78A77 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = BLE6S92Q8W;
+						DevelopmentTeam = EX4N42CUS7;
 					};
 					AE5C41861A7A7DC900C78A77 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -241,10 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */,
 				AE5507481A7AEFFD00CE69B2 /* ProjectViewController.m in Sources */,
 				AE5C417A1A7A7DC900C78A77 /* ViewController.m in Sources */,
 				AE5C41771A7A7DC900C78A77 /* AppDelegate.m in Sources */,
 				AE5C41741A7A7DC900C78A77 /* main.m in Sources */,
+				AE55074C1A7B2AA900CE69B2 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +392,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "61b6b740-c283-4d27-b8d0-c9300cc5f0cf";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -381,12 +401,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hong Liang Wang (EX4N42CUS7)";
 				INFOPLIST_FILE = UnKnowSoftware/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "61b6b740-c283-4d27-b8d0-c9300cc5f0cf";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
