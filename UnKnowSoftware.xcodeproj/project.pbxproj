@@ -17,7 +17,6 @@
 		AE5C41821A7A7DC900C78A77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5C41801A7A7DC900C78A77 /* LaunchScreen.xib */; };
 		AE5C418E1A7A7DC900C78A77 /* UnKnowSoftwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C418D1A7A7DC900C78A77 /* UnKnowSoftwareTests.m */; };
 		AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE786A091A7B589400367E92 /* MyViewController.m */; };
-		DFCC3E121A7FA36C00AFA3CF /* ShghjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCC3E111A7FA36C00AFA3CF /* ShghjViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +49,6 @@
 		AE5C418D1A7A7DC900C78A77 /* UnKnowSoftwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnKnowSoftwareTests.m; sourceTree = "<group>"; };
 		AE786A081A7B589400367E92 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		AE786A091A7B589400367E92 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		DFCC3E101A7FA36C00AFA3CF /* ShghjViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShghjViewController.h; sourceTree = "<group>"; };
-		DFCC3E111A7FA36C00AFA3CF /* ShghjViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShghjViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +162,6 @@
 		DFCC3E0F1A7FA12B00AFA3CF /* 投资人 */ = {
 			isa = PBXGroup;
 			children = (
-				DFCC3E101A7FA36C00AFA3CF /* ShghjViewController.h */,
-				DFCC3E111A7FA36C00AFA3CF /* ShghjViewController.m */,
 			);
 			path = "投资人";
 			sourceTree = "<group>";
@@ -278,7 +273,6 @@
 				AE5C41771A7A7DC900C78A77 /* AppDelegate.m in Sources */,
 				AE5C41741A7A7DC900C78A77 /* main.m in Sources */,
 				AE55074C1A7B2AA900CE69B2 /* LoginViewController.m in Sources */,
-				DFCC3E121A7FA36C00AFA3CF /* ShghjViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
