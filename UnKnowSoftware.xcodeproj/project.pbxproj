@@ -16,6 +16,18 @@
 		AE5C417F1A7A7DC900C78A77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5C417E1A7A7DC900C78A77 /* Images.xcassets */; };
 		AE5C41821A7A7DC900C78A77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5C41801A7A7DC900C78A77 /* LaunchScreen.xib */; };
 		AE5C418E1A7A7DC900C78A77 /* UnKnowSoftwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C418D1A7A7DC900C78A77 /* UnKnowSoftwareTests.m */; };
+		AE6E0E271A7FBC59001CE038 /* ChoseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0E261A7FBC59001CE038 /* ChoseNavigationController.m */; };
+		AE6E0E2A1A80335E001CE038 /* MBarButttonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0E291A80335E001CE038 /* MBarButttonItem.m */; };
+		AE6E0E2D1A8033AB001CE038 /* MTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0E2C1A8033AB001CE038 /* MTabBarItem.m */; };
+		AE6E0EA41A80351D001CE038 /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0E9F1A80351D001CE038 /* RDVTabBar.m */; };
+		AE6E0EA51A80351D001CE038 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EA11A80351D001CE038 /* RDVTabBarController.m */; };
+		AE6E0EA61A80351D001CE038 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EA31A80351D001CE038 /* RDVTabBarItem.m */; };
+		AE6E0EA91A803808001CE038 /* MTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EA81A803808001CE038 /* MTabbarController.m */; };
+		AE6E0EAF1A80790F001CE038 /* InvestorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EAE1A80790F001CE038 /* InvestorsViewController.m */; };
+		AE6E0EB21A807922001CE038 /* ZhuceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EB11A807922001CE038 /* ZhuceViewController.m */; };
+		AE6E0EB51A807A1A001CE038 /* InvestorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EB41A807A1A001CE038 /* InvestorsCell.m */; };
+		AE6E0EB91A8098AC001CE038 /* huodongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EB81A8098AC001CE038 /* huodongViewController.m */; };
+		AE6E0EBD1A809B3C001CE038 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EBC1A809B3C001CE038 /* TeacherViewController.m */; };
 		AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE786A091A7B589400367E92 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +59,31 @@
 		AE5C41871A7A7DC900C78A77 /* UnKnowSoftwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnKnowSoftwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C418C1A7A7DC900C78A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5C418D1A7A7DC900C78A77 /* UnKnowSoftwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnKnowSoftwareTests.m; sourceTree = "<group>"; };
+		AE6E0E241A7FBB38001CE038 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AE6E0E251A7FBC59001CE038 /* ChoseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseNavigationController.h; sourceTree = "<group>"; };
+		AE6E0E261A7FBC59001CE038 /* ChoseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseNavigationController.m; sourceTree = "<group>"; };
+		AE6E0E281A80335E001CE038 /* MBarButttonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBarButttonItem.h; sourceTree = "<group>"; };
+		AE6E0E291A80335E001CE038 /* MBarButttonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBarButttonItem.m; sourceTree = "<group>"; };
+		AE6E0E2B1A8033AB001CE038 /* MTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTabBarItem.h; sourceTree = "<group>"; };
+		AE6E0E2C1A8033AB001CE038 /* MTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTabBarItem.m; sourceTree = "<group>"; };
+		AE6E0E9E1A80351D001CE038 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		AE6E0E9F1A80351D001CE038 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		AE6E0EA01A80351D001CE038 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		AE6E0EA11A80351D001CE038 /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		AE6E0EA21A80351D001CE038 /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		AE6E0EA31A80351D001CE038 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		AE6E0EA71A803808001CE038 /* MTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTabbarController.h; sourceTree = "<group>"; };
+		AE6E0EA81A803808001CE038 /* MTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTabbarController.m; sourceTree = "<group>"; };
+		AE6E0EAC1A80786C001CE038 /* InvestorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestorsViewController.h; sourceTree = "<group>"; };
+		AE6E0EAE1A80790F001CE038 /* InvestorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestorsViewController.m; sourceTree = "<group>"; };
+		AE6E0EB01A807922001CE038 /* ZhuceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuceViewController.h; sourceTree = "<group>"; };
+		AE6E0EB11A807922001CE038 /* ZhuceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuceViewController.m; sourceTree = "<group>"; };
+		AE6E0EB31A807A1A001CE038 /* InvestorsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestorsCell.h; sourceTree = "<group>"; };
+		AE6E0EB41A807A1A001CE038 /* InvestorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestorsCell.m; sourceTree = "<group>"; };
+		AE6E0EB71A8098AC001CE038 /* huodongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huodongViewController.h; sourceTree = "<group>"; };
+		AE6E0EB81A8098AC001CE038 /* huodongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = huodongViewController.m; sourceTree = "<group>"; };
+		AE6E0EBB1A809B3C001CE038 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		AE6E0EBC1A809B3C001CE038 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
 		AE786A081A7B589400367E92 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		AE786A091A7B589400367E92 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +127,8 @@
 		AE5C41701A7A7DC900C78A77 /* UnKnowSoftware */ = {
 			isa = PBXGroup;
 			children = (
+				AE6E0E2E1A8034EE001CE038 /* Libraries */,
+				AE6E0E231A7FB99E001CE038 /* Utilities */,
 				AE5C41971A7A86DD00C78A77 /* ViewControllers */,
 				AE5C41751A7A7DC900C78A77 /* AppDelegate.h */,
 				AE5C41761A7A7DC900C78A77 /* AppDelegate.m */,
@@ -97,6 +136,8 @@
 				AE55074A1A7B2AA900CE69B2 /* LoginViewController.m */,
 				AE5C41781A7A7DC900C78A77 /* ViewController.h */,
 				AE5C41791A7A7DC900C78A77 /* ViewController.m */,
+				AE6E0EB01A807922001CE038 /* ZhuceViewController.h */,
+				AE6E0EB11A807922001CE038 /* ZhuceViewController.m */,
 				AE5C417B1A7A7DC900C78A77 /* Main.storyboard */,
 				AE5C417E1A7A7DC900C78A77 /* Images.xcassets */,
 				AE5C41801A7A7DC900C78A77 /* LaunchScreen.xib */,
@@ -110,6 +151,7 @@
 			children = (
 				AE5C41721A7A7DC900C78A77 /* Info.plist */,
 				AE5C41731A7A7DC900C78A77 /* main.m */,
+				AE6E0E241A7FBB38001CE038 /* Constants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -134,7 +176,9 @@
 		AE5C41971A7A86DD00C78A77 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DFCC3E0F1A7FA12B00AFA3CF /* 投资人 */,
+				AE6E0EBA1A809B18001CE038 /* 导师 */,
+				AE6E0EB61A80986F001CE038 /* 活动 */,
+				AE6E0EAA1A80784D001CE038 /* 投资人 */,
 				AE786A071A7B581A00367E92 /* 我的 */,
 				AE5C41981A7A870F00C78A77 /* 创业项目 */,
 			);
@@ -150,6 +194,71 @@
 			path = "创业项目";
 			sourceTree = "<group>";
 		};
+		AE6E0E231A7FB99E001CE038 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E0EB31A807A1A001CE038 /* InvestorsCell.h */,
+				AE6E0EB41A807A1A001CE038 /* InvestorsCell.m */,
+				AE6E0E251A7FBC59001CE038 /* ChoseNavigationController.h */,
+				AE6E0E261A7FBC59001CE038 /* ChoseNavigationController.m */,
+				AE6E0E281A80335E001CE038 /* MBarButttonItem.h */,
+				AE6E0E291A80335E001CE038 /* MBarButttonItem.m */,
+				AE6E0E2B1A8033AB001CE038 /* MTabBarItem.h */,
+				AE6E0E2C1A8033AB001CE038 /* MTabBarItem.m */,
+				AE6E0EA71A803808001CE038 /* MTabbarController.h */,
+				AE6E0EA81A803808001CE038 /* MTabbarController.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AE6E0E2E1A8034EE001CE038 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E0E9D1A80351D001CE038 /* 自定义tabbar控制器 */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		AE6E0E9D1A80351D001CE038 /* 自定义tabbar控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E0E9E1A80351D001CE038 /* RDVTabBar.h */,
+				AE6E0E9F1A80351D001CE038 /* RDVTabBar.m */,
+				AE6E0EA01A80351D001CE038 /* RDVTabBarController.h */,
+				AE6E0EA11A80351D001CE038 /* RDVTabBarController.m */,
+				AE6E0EA21A80351D001CE038 /* RDVTabBarItem.h */,
+				AE6E0EA31A80351D001CE038 /* RDVTabBarItem.m */,
+			);
+			path = "自定义tabbar控制器";
+			sourceTree = "<group>";
+		};
+		AE6E0EAA1A80784D001CE038 /* 投资人 */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E0EAC1A80786C001CE038 /* InvestorsViewController.h */,
+				AE6E0EAE1A80790F001CE038 /* InvestorsViewController.m */,
+			);
+			path = "投资人";
+			sourceTree = "<group>";
+		};
+		AE6E0EB61A80986F001CE038 /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E0EB71A8098AC001CE038 /* huodongViewController.h */,
+				AE6E0EB81A8098AC001CE038 /* huodongViewController.m */,
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		AE6E0EBA1A809B18001CE038 /* 导师 */ = {
+			isa = PBXGroup;
+			children = (
+				AE6E0EBB1A809B3C001CE038 /* TeacherViewController.h */,
+				AE6E0EBC1A809B3C001CE038 /* TeacherViewController.m */,
+			);
+			path = "导师";
+			sourceTree = "<group>";
+		};
 		AE786A071A7B581A00367E92 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,13 +266,6 @@
 				AE786A091A7B589400367E92 /* MyViewController.m */,
 			);
 			path = "我的";
-			sourceTree = "<group>";
-		};
-		DFCC3E0F1A7FA12B00AFA3CF /* 投资人 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "投资人";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,12 +369,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6E0EA91A803808001CE038 /* MTabbarController.m in Sources */,
+				AE6E0EB21A807922001CE038 /* ZhuceViewController.m in Sources */,
 				AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */,
+				AE6E0EAF1A80790F001CE038 /* InvestorsViewController.m in Sources */,
 				AE5507481A7AEFFD00CE69B2 /* ProjectViewController.m in Sources */,
+				AE6E0EBD1A809B3C001CE038 /* TeacherViewController.m in Sources */,
 				AE5C417A1A7A7DC900C78A77 /* ViewController.m in Sources */,
+				AE6E0EA61A80351D001CE038 /* RDVTabBarItem.m in Sources */,
+				AE6E0EB51A807A1A001CE038 /* InvestorsCell.m in Sources */,
 				AE5C41771A7A7DC900C78A77 /* AppDelegate.m in Sources */,
 				AE5C41741A7A7DC900C78A77 /* main.m in Sources */,
+				AE6E0E2D1A8033AB001CE038 /* MTabBarItem.m in Sources */,
+				AE6E0E2A1A80335E001CE038 /* MBarButttonItem.m in Sources */,
+				AE6E0EA51A80351D001CE038 /* RDVTabBarController.m in Sources */,
 				AE55074C1A7B2AA900CE69B2 /* LoginViewController.m in Sources */,
+				AE6E0EA41A80351D001CE038 /* RDVTabBar.m in Sources */,
+				AE6E0E271A7FBC59001CE038 /* ChoseNavigationController.m in Sources */,
+				AE6E0EB91A8098AC001CE038 /* huodongViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +513,10 @@
 				INFOPLIST_FILE = UnKnowSoftware/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnKnowSoftware/Libraries/asi",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -413,6 +531,10 @@
 				INFOPLIST_FILE = UnKnowSoftware/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UnKnowSoftware/Libraries/asi",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
