@@ -1,5 +1,5 @@
 //
-//  TeacherViewController.h
+//  TalkViewController.h
 //  waibao
 //
 //  Created by macmini on 15/2/4.
@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface TeacherViewController : UIViewController
+
+@interface TalkViewController : UIViewController
 
 @end

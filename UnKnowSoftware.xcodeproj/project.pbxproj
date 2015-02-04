@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE5496031A81BBBE0073108C /* ProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496021A81BBBE0073108C /* ProjectDetailViewController.m */; };
+		AE5496071A8209AB0073108C /* huodongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496061A8209AB0073108C /* huodongDetailViewController.m */; };
+		AE54960B1A8217DE0073108C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54960A1A8217DE0073108C /* NSString+Extension.m */; };
+		AE5496101A825CA70073108C /* ChoseTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54960F1A825CA70073108C /* ChoseTypeView.m */; };
+		AE5496121A825CD90073108C /* ChoseTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5496111A825CD90073108C /* ChoseTypeView.xib */; };
+		AE5496221A82C9F90073108C /* Infour.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496151A82C9F90073108C /* Infour.m */; };
+		AE5496231A82C9F90073108C /* InthreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496171A82C9F90073108C /* InthreeCell.m */; };
+		AE5496241A82C9F90073108C /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496191A82C9F90073108C /* TalkViewController.m */; };
+		AE5496251A82C9F90073108C /* TeachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54961B1A82C9F90073108C /* TeachCell.m */; };
+		AE5496261A82C9F90073108C /* TeachdetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54961D1A82C9F90073108C /* TeachdetailViewController.m */; };
+		AE5496271A82C9F90073108C /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54961F1A82C9F90073108C /* TeacherViewController.m */; };
+		AE5496281A82C9F90073108C /* TijiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496211A82C9F90073108C /* TijiaoViewController.m */; };
+		AE54962D1A82CCB50073108C /* IndetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54962A1A82CCB50073108C /* IndetailCell.m */; };
+		AE54962E1A82CCB50073108C /* InvestordetaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54962C1A82CCB50073108C /* InvestordetaiViewController.m */; };
+		AE5496311A82D1500073108C /* shaixuanTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5496301A82D1500073108C /* shaixuanTableView.m */; };
+		AE5496341A82D46B0073108C /* image_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5496321A82D46A0073108C /* image_select@2x.png */; };
+		AE5496351A82D46B0073108C /* image_unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5496331A82D46B0073108C /* image_unselect@2x.png */; };
 		AE5507481A7AEFFD00CE69B2 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5507471A7AEFFD00CE69B2 /* ProjectViewController.m */; };
 		AE55074C1A7B2AA900CE69B2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE55074A1A7B2AA900CE69B2 /* LoginViewController.m */; };
 		AE5C41741A7A7DC900C78A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5C41731A7A7DC900C78A77 /* main.m */; };
@@ -27,7 +44,6 @@
 		AE6E0EB21A807922001CE038 /* ZhuceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EB11A807922001CE038 /* ZhuceViewController.m */; };
 		AE6E0EB51A807A1A001CE038 /* InvestorsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EB41A807A1A001CE038 /* InvestorsCell.m */; };
 		AE6E0EB91A8098AC001CE038 /* huodongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EB81A8098AC001CE038 /* huodongViewController.m */; };
-		AE6E0EBD1A809B3C001CE038 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E0EBC1A809B3C001CE038 /* TeacherViewController.m */; };
 		AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE786A091A7B589400367E92 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +58,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE5496011A81BBBE0073108C /* ProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDetailViewController.h; sourceTree = "<group>"; };
+		AE5496021A81BBBE0073108C /* ProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDetailViewController.m; sourceTree = "<group>"; };
+		AE5496051A8209AB0073108C /* huodongDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huodongDetailViewController.h; sourceTree = "<group>"; };
+		AE5496061A8209AB0073108C /* huodongDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = huodongDetailViewController.m; sourceTree = "<group>"; };
+		AE5496091A8217DE0073108C /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		AE54960A1A8217DE0073108C /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		AE54960E1A825CA70073108C /* ChoseTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseTypeView.h; sourceTree = "<group>"; };
+		AE54960F1A825CA70073108C /* ChoseTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseTypeView.m; sourceTree = "<group>"; };
+		AE5496111A825CD90073108C /* ChoseTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoseTypeView.xib; sourceTree = "<group>"; };
+		AE5496141A82C9F90073108C /* Infour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Infour.h; sourceTree = "<group>"; };
+		AE5496151A82C9F90073108C /* Infour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Infour.m; sourceTree = "<group>"; };
+		AE5496161A82C9F90073108C /* InthreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InthreeCell.h; sourceTree = "<group>"; };
+		AE5496171A82C9F90073108C /* InthreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InthreeCell.m; sourceTree = "<group>"; };
+		AE5496181A82C9F90073108C /* TalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkViewController.h; sourceTree = "<group>"; };
+		AE5496191A82C9F90073108C /* TalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkViewController.m; sourceTree = "<group>"; };
+		AE54961A1A82C9F90073108C /* TeachCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeachCell.h; sourceTree = "<group>"; };
+		AE54961B1A82C9F90073108C /* TeachCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeachCell.m; sourceTree = "<group>"; };
+		AE54961C1A82C9F90073108C /* TeachdetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeachdetailViewController.h; sourceTree = "<group>"; };
+		AE54961D1A82C9F90073108C /* TeachdetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeachdetailViewController.m; sourceTree = "<group>"; };
+		AE54961E1A82C9F90073108C /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		AE54961F1A82C9F90073108C /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		AE5496201A82C9F90073108C /* TijiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TijiaoViewController.h; sourceTree = "<group>"; };
+		AE5496211A82C9F90073108C /* TijiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TijiaoViewController.m; sourceTree = "<group>"; };
+		AE5496291A82CCB50073108C /* IndetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndetailCell.h; sourceTree = "<group>"; };
+		AE54962A1A82CCB50073108C /* IndetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndetailCell.m; sourceTree = "<group>"; };
+		AE54962B1A82CCB50073108C /* InvestordetaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestordetaiViewController.h; sourceTree = "<group>"; };
+		AE54962C1A82CCB50073108C /* InvestordetaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestordetaiViewController.m; sourceTree = "<group>"; };
+		AE54962F1A82D14F0073108C /* shaixuanTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaixuanTableView.h; sourceTree = "<group>"; };
+		AE5496301A82D1500073108C /* shaixuanTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shaixuanTableView.m; sourceTree = "<group>"; };
+		AE5496321A82D46A0073108C /* image_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_select@2x.png"; sourceTree = "<group>"; };
+		AE5496331A82D46B0073108C /* image_unselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_unselect@2x.png"; sourceTree = "<group>"; };
 		AE5507461A7AEFFD00CE69B2 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
 		AE5507471A7AEFFD00CE69B2 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
 		AE5507491A7B2AA900CE69B2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -82,8 +129,6 @@
 		AE6E0EB41A807A1A001CE038 /* InvestorsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestorsCell.m; sourceTree = "<group>"; };
 		AE6E0EB71A8098AC001CE038 /* huodongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huodongViewController.h; sourceTree = "<group>"; };
 		AE6E0EB81A8098AC001CE038 /* huodongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = huodongViewController.m; sourceTree = "<group>"; };
-		AE6E0EBB1A809B3C001CE038 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
-		AE6E0EBC1A809B3C001CE038 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
 		AE786A081A7B589400367E92 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		AE786A091A7B589400367E92 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +151,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE5496001A81BB440073108C /* 创业项目详情 */ = {
+			isa = PBXGroup;
+			children = (
+				AE5496011A81BBBE0073108C /* ProjectDetailViewController.h */,
+				AE5496021A81BBBE0073108C /* ProjectDetailViewController.m */,
+			);
+			path = "创业项目详情";
+			sourceTree = "<group>";
+		};
+		AE5496041A8201310073108C /* 活动详情 */ = {
+			isa = PBXGroup;
+			children = (
+				AE5496051A8209AB0073108C /* huodongDetailViewController.h */,
+				AE5496061A8209AB0073108C /* huodongDetailViewController.m */,
+			);
+			path = "活动详情";
+			sourceTree = "<group>";
+		};
+		AE5496081A82160F0073108C /* 自适应label高度 */ = {
+			isa = PBXGroup;
+			children = (
+				AE5496091A8217DE0073108C /* NSString+Extension.h */,
+				AE54960A1A8217DE0073108C /* NSString+Extension.m */,
+			);
+			name = "自适应label高度";
+			path = "label自适应高度";
+			sourceTree = "<group>";
+		};
+		AE5496131A82C9D90073108C /* 导师 */ = {
+			isa = PBXGroup;
+			children = (
+				AE5496141A82C9F90073108C /* Infour.h */,
+				AE5496151A82C9F90073108C /* Infour.m */,
+				AE5496161A82C9F90073108C /* InthreeCell.h */,
+				AE5496171A82C9F90073108C /* InthreeCell.m */,
+				AE5496181A82C9F90073108C /* TalkViewController.h */,
+				AE5496191A82C9F90073108C /* TalkViewController.m */,
+				AE54961A1A82C9F90073108C /* TeachCell.h */,
+				AE54961B1A82C9F90073108C /* TeachCell.m */,
+				AE54961C1A82C9F90073108C /* TeachdetailViewController.h */,
+				AE54961D1A82C9F90073108C /* TeachdetailViewController.m */,
+				AE54961E1A82C9F90073108C /* TeacherViewController.h */,
+				AE54961F1A82C9F90073108C /* TeacherViewController.m */,
+				AE5496201A82C9F90073108C /* TijiaoViewController.h */,
+				AE5496211A82C9F90073108C /* TijiaoViewController.m */,
+			);
+			path = "导师";
+			sourceTree = "<group>";
+		};
 		AE5C41651A7A7DC800C78A77 = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +270,7 @@
 		AE5C41971A7A86DD00C78A77 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AE6E0EBA1A809B18001CE038 /* 导师 */,
+				AE5496131A82C9D90073108C /* 导师 */,
 				AE6E0EB61A80986F001CE038 /* 活动 */,
 				AE6E0EAA1A80784D001CE038 /* 投资人 */,
 				AE786A071A7B581A00367E92 /* 我的 */,
@@ -188,6 +282,7 @@
 		AE5C41981A7A870F00C78A77 /* 创业项目 */ = {
 			isa = PBXGroup;
 			children = (
+				AE5496001A81BB440073108C /* 创业项目详情 */,
 				AE5507461A7AEFFD00CE69B2 /* ProjectViewController.h */,
 				AE5507471A7AEFFD00CE69B2 /* ProjectViewController.m */,
 			);
@@ -199,6 +294,9 @@
 			children = (
 				AE6E0EB31A807A1A001CE038 /* InvestorsCell.h */,
 				AE6E0EB41A807A1A001CE038 /* InvestorsCell.m */,
+				AE54960E1A825CA70073108C /* ChoseTypeView.h */,
+				AE54960F1A825CA70073108C /* ChoseTypeView.m */,
+				AE5496111A825CD90073108C /* ChoseTypeView.xib */,
 				AE6E0E251A7FBC59001CE038 /* ChoseNavigationController.h */,
 				AE6E0E261A7FBC59001CE038 /* ChoseNavigationController.m */,
 				AE6E0E281A80335E001CE038 /* MBarButttonItem.h */,
@@ -207,6 +305,10 @@
 				AE6E0E2C1A8033AB001CE038 /* MTabBarItem.m */,
 				AE6E0EA71A803808001CE038 /* MTabbarController.h */,
 				AE6E0EA81A803808001CE038 /* MTabbarController.m */,
+				AE54962F1A82D14F0073108C /* shaixuanTableView.h */,
+				AE5496301A82D1500073108C /* shaixuanTableView.m */,
+				AE5496321A82D46A0073108C /* image_select@2x.png */,
+				AE5496331A82D46B0073108C /* image_unselect@2x.png */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -214,6 +316,7 @@
 		AE6E0E2E1A8034EE001CE038 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				AE5496081A82160F0073108C /* 自适应label高度 */,
 				AE6E0E9D1A80351D001CE038 /* 自定义tabbar控制器 */,
 			);
 			path = Libraries;
@@ -235,6 +338,10 @@
 		AE6E0EAA1A80784D001CE038 /* 投资人 */ = {
 			isa = PBXGroup;
 			children = (
+				AE5496291A82CCB50073108C /* IndetailCell.h */,
+				AE54962A1A82CCB50073108C /* IndetailCell.m */,
+				AE54962B1A82CCB50073108C /* InvestordetaiViewController.h */,
+				AE54962C1A82CCB50073108C /* InvestordetaiViewController.m */,
 				AE6E0EAC1A80786C001CE038 /* InvestorsViewController.h */,
 				AE6E0EAE1A80790F001CE038 /* InvestorsViewController.m */,
 			);
@@ -244,19 +351,11 @@
 		AE6E0EB61A80986F001CE038 /* 活动 */ = {
 			isa = PBXGroup;
 			children = (
+				AE5496041A8201310073108C /* 活动详情 */,
 				AE6E0EB71A8098AC001CE038 /* huodongViewController.h */,
 				AE6E0EB81A8098AC001CE038 /* huodongViewController.m */,
 			);
 			path = "活动";
-			sourceTree = "<group>";
-		};
-		AE6E0EBA1A809B18001CE038 /* 导师 */ = {
-			isa = PBXGroup;
-			children = (
-				AE6E0EBB1A809B3C001CE038 /* TeacherViewController.h */,
-				AE6E0EBC1A809B3C001CE038 /* TeacherViewController.m */,
-			);
-			path = "导师";
 			sourceTree = "<group>";
 		};
 		AE786A071A7B581A00367E92 /* 我的 */ = {
@@ -350,8 +449,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5C417D1A7A7DC900C78A77 /* Main.storyboard in Resources */,
+				AE5496121A825CD90073108C /* ChoseTypeView.xib in Resources */,
+				AE5496341A82D46B0073108C /* image_select@2x.png in Resources */,
 				AE5C41821A7A7DC900C78A77 /* LaunchScreen.xib in Resources */,
 				AE5C417F1A7A7DC900C78A77 /* Images.xcassets in Resources */,
+				AE5496351A82D46B0073108C /* image_unselect@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,19 +473,32 @@
 			files = (
 				AE6E0EA91A803808001CE038 /* MTabbarController.m in Sources */,
 				AE6E0EB21A807922001CE038 /* ZhuceViewController.m in Sources */,
+				AE5496071A8209AB0073108C /* huodongDetailViewController.m in Sources */,
 				AE786A0A1A7B589400367E92 /* MyViewController.m in Sources */,
 				AE6E0EAF1A80790F001CE038 /* InvestorsViewController.m in Sources */,
+				AE5496031A81BBBE0073108C /* ProjectDetailViewController.m in Sources */,
+				AE5496231A82C9F90073108C /* InthreeCell.m in Sources */,
+				AE54962D1A82CCB50073108C /* IndetailCell.m in Sources */,
+				AE5496221A82C9F90073108C /* Infour.m in Sources */,
 				AE5507481A7AEFFD00CE69B2 /* ProjectViewController.m in Sources */,
-				AE6E0EBD1A809B3C001CE038 /* TeacherViewController.m in Sources */,
 				AE5C417A1A7A7DC900C78A77 /* ViewController.m in Sources */,
+				AE5496241A82C9F90073108C /* TalkViewController.m in Sources */,
 				AE6E0EA61A80351D001CE038 /* RDVTabBarItem.m in Sources */,
 				AE6E0EB51A807A1A001CE038 /* InvestorsCell.m in Sources */,
+				AE5496261A82C9F90073108C /* TeachdetailViewController.m in Sources */,
 				AE5C41771A7A7DC900C78A77 /* AppDelegate.m in Sources */,
+				AE5496251A82C9F90073108C /* TeachCell.m in Sources */,
 				AE5C41741A7A7DC900C78A77 /* main.m in Sources */,
+				AE5496101A825CA70073108C /* ChoseTypeView.m in Sources */,
+				AE54960B1A8217DE0073108C /* NSString+Extension.m in Sources */,
+				AE5496311A82D1500073108C /* shaixuanTableView.m in Sources */,
 				AE6E0E2D1A8033AB001CE038 /* MTabBarItem.m in Sources */,
+				AE5496281A82C9F90073108C /* TijiaoViewController.m in Sources */,
+				AE54962E1A82CCB50073108C /* InvestordetaiViewController.m in Sources */,
 				AE6E0E2A1A80335E001CE038 /* MBarButttonItem.m in Sources */,
 				AE6E0EA51A80351D001CE038 /* RDVTabBarController.m in Sources */,
 				AE55074C1A7B2AA900CE69B2 /* LoginViewController.m in Sources */,
+				AE5496271A82C9F90073108C /* TeacherViewController.m in Sources */,
 				AE6E0EA41A80351D001CE038 /* RDVTabBar.m in Sources */,
 				AE6E0E271A7FBC59001CE038 /* ChoseNavigationController.m in Sources */,
 				AE6E0EB91A8098AC001CE038 /* huodongViewController.m in Sources */,

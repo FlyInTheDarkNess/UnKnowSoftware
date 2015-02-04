@@ -7,10 +7,12 @@
 //
 
 #import "ProjectViewController.h"
+#import "RDVTabBarController.h"
+#import "shaixuanTableView.h"
 
 @interface ProjectViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
-    
+    shaixuanTableView *view;
 }
 
 @end
@@ -19,6 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    view = [[shaixuanTableView alloc]initWithFrame:CGRectMake(0, 64, 160, 568)];
+    view.backgroundColor = [UIColor blackColor];
+    view.TypeArr = @[@"推荐",@"全部方向",@"电子商务",@"移动互联网"];
+    [self.view addSubview:view];
+    view.hidden = YES;
     // Do any additional setup after loading the view.
 }
 
@@ -27,6 +35,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)choseType:(id)sender {
+    UIBarButtonItem *item = (UIBarButtonItem *)sender;
+    if (view.hidden == NO) {
+        
+        item.image = [UIImage imageNamed:@"6"];
+        view.hidden = YES;
+    }
+    else{
+        view.hidden = NO;
+        item.image = [UIImage imageNamed:@"5"];
+    }
+   
+    
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 10;
@@ -73,6 +95,8 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForFootderInSection:(NSInteger)section{
     return 5;
 }
+
+
 
 
 /*

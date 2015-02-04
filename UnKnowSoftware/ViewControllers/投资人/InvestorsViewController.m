@@ -9,6 +9,8 @@
 #import "InvestorsViewController.h"
 #import "ZhuceViewController.h"
 #import "InvestorsCell.h"
+#import "InvestordetaiViewController.h"
+
 
 @interface InvestorsViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *touzirenTableView;
@@ -58,14 +60,16 @@
     return 165;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    InvestordetaiViewController *inves = [[InvestordetaiViewController alloc]init];
-//    [self.navigationController pushViewController:inves animated:YES];
+    InvestordetaiViewController *inves = [[InvestordetaiViewController alloc]init];
+    [self.navigationController pushViewController:inves animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation

@@ -8,6 +8,7 @@
 
 #import "huodongViewController.h"
 
+
 @interface huodongViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @end
@@ -49,6 +50,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 140;
 }
+
 
 /*
 #pragma mark - Navigation
