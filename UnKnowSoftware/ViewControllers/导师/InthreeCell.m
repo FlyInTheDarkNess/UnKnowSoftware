@@ -28,8 +28,9 @@
 }
 -(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    CGRect r = [UIScreen mainScreen].bounds;
     if(self){
-        view = [[UIView alloc]initWithFrame:CGRectMake(5, 0, self.contentView.frame.size.width - 10, 110)];
+        view = [[UIView alloc]initWithFrame:CGRectMake(5, 0, r.size.width - 10, 110)];
         view.backgroundColor = [UIColor whiteColor];
         [self.contentView addSubview:view];
         

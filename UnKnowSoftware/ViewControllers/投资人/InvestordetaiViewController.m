@@ -52,18 +52,29 @@
     butt.layer.cornerRadius = 5;
     [butt.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
     
-    UIButton *buttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 80, 10, 30, 30)];
+    UIButton *buttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 80, 10, 20, 20)];
     [view addSubview:buttt];
-    buttt.backgroundColor = [UIColor colorWithRed:55.0/255 green:139.0/255 blue:224.0/255 alpha:1];
-    [buttt setTitle:@"关注" forState:UIControlStateNormal];
+    [buttt setBackgroundImage:[UIImage imageNamed:@"xing"] forState:UIControlStateNormal];
+    UILabel *ee = [[UILabel alloc]initWithFrame:CGRectMake(WIDTH - 80, 30, 20, 10)];
+    ee.text = @"关注";
+    ee.alpha = 0.6;
+    [ee setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:10]];
+    [view addSubview:ee];
+    
     buttt.layer.masksToBounds = YES;
     buttt.layer.cornerRadius = 5;
     [buttt.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
     
-    UIButton *butttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 40, 10, 30, 30)];
+    UIButton *butttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 40, 10, 20, 20)];
+    [butttt setBackgroundImage:[UIImage imageNamed:@"zan"] forState:UIControlStateNormal];
     [view addSubview:butttt];
-    butttt.backgroundColor = [UIColor colorWithRed:55.0/255 green:139.0/255 blue:224.0/255 alpha:1];
-    [butttt setTitle:@"z赞" forState:UIControlStateNormal];
+    UILabel *RR = [[UILabel alloc]initWithFrame:CGRectMake(WIDTH - 40, 30, 20, 10)];
+    RR.textAlignment = NSTextAlignmentCenter;
+    RR.text = @"赞";
+    RR.alpha = 0.6;
+    [RR setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:10]];
+    [view addSubview:RR];
+    
     butttt.layer.masksToBounds = YES;
     butttt.layer.cornerRadius = 5;
     [butttt.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
@@ -215,10 +226,7 @@
     [[self rdv_tabBarController] setTabBarHidden:YES animated:YES];
 }
 
--(void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
-}
+
 
 -(void)tijiao{
     TijiaoViewController *tijiao = [[TijiaoViewController alloc]init];

@@ -21,8 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    view = [[shaixuanTableView alloc]initWithFrame:CGRectMake(0, 64, 160, 568)];
+   
+    view = [[shaixuanTableView alloc]initWithFrame:CGRectMake(0, 64, 160, [UIScreen mainScreen].bounds.size.height)];
     view.backgroundColor = [UIColor blackColor];
     view.TypeArr = @[@"推荐",@"全部方向",@"电子商务",@"移动互联网"];
     [self.view addSubview:view];
@@ -39,12 +39,12 @@
     UIBarButtonItem *item = (UIBarButtonItem *)sender;
     if (view.hidden == NO) {
         
-        item.image = [UIImage imageNamed:@"6"];
+        item.image = [UIImage imageNamed:@"5"];
         view.hidden = YES;
     }
     else{
         view.hidden = NO;
-        item.image = [UIImage imageNamed:@"5"];
+        item.image = [UIImage imageNamed:@"6"];
     }
    
     
@@ -89,14 +89,17 @@
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 15;
+    return 1;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForFootderInSection:(NSInteger)section{
-    return 5;
+    return 1;
 }
 
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
+}
 
 
 /*

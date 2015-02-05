@@ -25,7 +25,8 @@
 -(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if(self){
-        view = [[UIView alloc]initWithFrame:CGRectMake(5, 0, self.contentView.frame.size.width - 10, 100)];
+        CGRect r = [UIScreen mainScreen].bounds;
+        view = [[UIView alloc]initWithFrame:CGRectMake(5, 0, r.size.width - 10, 100)];
         view.layer.borderWidth = 0.5;
         view.layer.borderColor = [UIColor groupTableViewBackgroundColor].CGColor;
         view.backgroundColor = [UIColor whiteColor];

@@ -7,16 +7,20 @@
 //
 
 #import "huodongViewController.h"
+#import "RDVTabBarController.h"
 
 
 @interface huodongViewController ()<UITableViewDataSource,UITableViewDelegate>
-
+{
+    
+}
 @end
 
 @implementation huodongViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -24,6 +28,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 10;
@@ -40,7 +46,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 19;
+    return 9;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
@@ -49,6 +55,11 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 140;
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
 }
 
 

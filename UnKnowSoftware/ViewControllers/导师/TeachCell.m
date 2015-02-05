@@ -22,7 +22,8 @@
 -(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if(self){
-        self.view = [[UIView alloc]initWithFrame:CGRectMake(5, 10, WIDTH - 10, 190)];
+        CGRect r = [UIScreen mainScreen].bounds;
+        self.view = [[UIView alloc]initWithFrame:CGRectMake(5, 10, r.size.width - 10, 190)];
         self.view.backgroundColor = [UIColor whiteColor];
         [self.contentView addSubview:self.view];
         
@@ -55,33 +56,33 @@
         [self.lablefour setFont:[UIFont fontWithName:@"HelveticaNeue" size:14]];
         [self.view addSubview:self.lablefour];
         
-        self.view_one = [[UIView alloc]initWithFrame:CGRectMake(0, 100, WIDTH - 10, 30)];
+        self.view_one = [[UIView alloc]initWithFrame:CGRectMake(0, 100, r.size.width - 10, 30)];
         self.view_one.backgroundColor = [UIColor groupTableViewBackgroundColor];
         [self.view addSubview:self.view_one];
         
-        self.lablefive = [[UILabel alloc]initWithFrame:CGRectMake(10, 0, 100, 30)];
+        self.lablefive = [[UILabel alloc]initWithFrame:CGRectMake(self.view_one.frame.size.width/2 - 140, 0, 100, 30)];
        self.lablefive.text = @"查看项目数:";
         [self.view_one addSubview:self.lablefive];
         
-        self.lablesix = [[UILabel alloc]initWithFrame:CGRectMake(110, 0, 40, 30)];
+        self.lablesix = [[UILabel alloc]initWithFrame:CGRectMake(self.view_one.frame.size.width/2 - 40, 0, 40, 30)];
         self.lablesix.text = @"34";
         self.lablesix.textColor = [UIColor orangeColor];
         [self.view_one addSubview:self.lablesix];
         
-        self.lableseven = [[UILabel alloc]initWithFrame:CGRectMake(140, 0, 100, 30)];
+        self.lableseven = [[UILabel alloc]initWithFrame:CGRectMake(self.view_one.frame.size.width/2, 0, 100, 30)];
         self.lableseven.text = @"约谈项目数:";
         [self.view_one addSubview:self.lableseven];
         
-        self.lablenine = [[UILabel alloc]initWithFrame:CGRectMake(240, 0, 40, 30)];
+        self.lablenine = [[UILabel alloc]initWithFrame:CGRectMake(self.view_one.frame.size.width/2 + 100, 0, 40, 30)];
         self.lablenine.text = @"34";
         self.lablenine.textColor = [UIColor orangeColor];
         [self.view_one addSubview:self.lablenine];
         
-        self.lable_line = [[UILabel alloc]initWithFrame:CGRectMake(10, 170, 2, 15)];
+        self.lable_line = [[UILabel alloc]initWithFrame:CGRectMake(5, 170, 2, 15)];
         self.lable_line.backgroundColor = [UIColor orangeColor];
         [self.view addSubview:self.lable_line];
         
-        self.our = [[UILabel alloc]initWithFrame:CGRectMake(20, 170, 70, 17)];
+        self.our = [[UILabel alloc]initWithFrame:CGRectMake(15, 170, 70, 17)];
         [self.our setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:14]];
         self.our.text = @"导师简介";
         [self.view addSubview:self.our];

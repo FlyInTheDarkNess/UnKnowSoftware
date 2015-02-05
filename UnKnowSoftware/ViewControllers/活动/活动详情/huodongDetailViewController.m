@@ -9,6 +9,7 @@
 #import "huodongDetailViewController.h"
 #import "NSString+Extension.h"
 #import "RDVTabBarController.h"
+#import "TalkViewController.h"
 
 @interface huodongDetailViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -97,7 +98,13 @@
 
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
+//    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
+}
+
+- (IBAction)huodongIn:(id)sender {
+    TalkViewController *talkVC = [[TalkViewController alloc]init];
+    talkVC.title = @"参加活动";
+    [self.navigationController pushViewController:talkVC animated:YES];
 }
 
 /*

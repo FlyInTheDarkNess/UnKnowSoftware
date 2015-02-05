@@ -23,7 +23,9 @@
 -(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if(self){
-        self.view = [[UIView alloc]initWithFrame:CGRectMake(5, 10, WIDTH - 10, 190)];
+        
+        CGRect r = [UIScreen mainScreen].bounds;
+        self.view = [[UIView alloc]initWithFrame:CGRectMake(5, 10,r.size.width - 10, 190)];
         self.view.backgroundColor = [UIColor whiteColor];
         [self.contentView addSubview:self.view];
         
@@ -56,12 +58,12 @@
         [self.lablefour setFont:[UIFont fontWithName:@"HelveticaNeue" size:14]];
         [self.view addSubview:self.lablefour];
         
-        self.lablefive = [[UILabel alloc]initWithFrame:CGRectMake(10, 85, WIDTH, 20)];
+        self.lablefive = [[UILabel alloc]initWithFrame:CGRectMake(10, 85, r.size.width - 20, 20)];
         [self.lablefive setFont:[UIFont fontWithName:@"HelveticaNeue" size:13]];
         self.lablefive.alpha = 0.5;
         [self.view addSubview:self.lablefive];
         
-        self.lablesix = [[UILabel alloc]initWithFrame:CGRectMake(10, 105, WIDTH - 30, 20)];
+        self.lablesix = [[UILabel alloc]initWithFrame:CGRectMake(10, 105, r.size.width - 30, 20)];
         [self.lablesix setFont:[UIFont fontWithName:@"HelveticaNeue" size:13]];
         
         [self.view addSubview:self.lablesix];

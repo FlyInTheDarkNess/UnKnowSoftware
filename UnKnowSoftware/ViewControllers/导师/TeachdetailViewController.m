@@ -12,8 +12,11 @@
 #import "Infour.h"
 #import "TijiaoViewController.h"
 #import "RDVTabBarController.h"
+#import "shaixuanTableView.h"
 @interface TeachdetailViewController ()<UITableViewDataSource,UITableViewDelegate>{
     UITableView *tableview;
+    shaixuanTableView *Tview;
+    
 //    UIButton *nav_button;
 }
 
@@ -53,22 +56,39 @@
     butt.layer.cornerRadius = 5;
     [butt.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
     
-    UIButton *buttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 80, 10, 30, 30)];
+    UIButton *buttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 80, 10, 20, 20)];
     [view addSubview:buttt];
-    buttt.backgroundColor = [UIColor colorWithRed:55.0/255 green:139.0/255 blue:224.0/255 alpha:1];
-    [buttt setTitle:@"关注" forState:UIControlStateNormal];
+    [buttt setBackgroundImage:[UIImage imageNamed:@"xing"] forState:UIControlStateNormal];
+    UILabel *ee = [[UILabel alloc]initWithFrame:CGRectMake(WIDTH - 80, 30, 20, 10)];
+    ee.text = @"关注";
+    ee.alpha = 0.6;
+    [ee setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:10]];
+    [view addSubview:ee];
+    
     buttt.layer.masksToBounds = YES;
     buttt.layer.cornerRadius = 5;
     [buttt.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
     
-    UIButton *butttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 40, 10, 30, 30)];
+    UIButton *butttt = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 40, 10, 20, 20)];
+    [butttt setBackgroundImage:[UIImage imageNamed:@"zan"] forState:UIControlStateNormal];
     [view addSubview:butttt];
-    butttt.backgroundColor = [UIColor colorWithRed:55.0/255 green:139.0/255 blue:224.0/255 alpha:1];
-    [butttt setTitle:@"z赞" forState:UIControlStateNormal];
+    UILabel *RR = [[UILabel alloc]initWithFrame:CGRectMake(WIDTH - 40, 30, 20, 10)];
+    RR.textAlignment = NSTextAlignmentCenter;
+    RR.text = @"赞";
+    RR.alpha = 0.6;
+    [RR setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:10]];
+    [view addSubview:RR];
+    
     butttt.layer.masksToBounds = YES;
     butttt.layer.cornerRadius = 5;
     [butttt.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
     
+    
+    Tview = [[shaixuanTableView alloc]initWithFrame:CGRectMake(0, 64, 160, [UIScreen mainScreen].bounds.size.height)];
+    Tview.backgroundColor = [UIColor blackColor];
+    Tview.TypeArr = @[@"推荐",@"全部方向",@"电子商务",@"移动互联网"];
+    [self.view addSubview:Tview];
+    Tview.hidden = YES;
     
     //navi ____button
 //    nav_button = [[UIButton alloc]initWithFrame:CGRectMake(WIDTH - 70, 10, 60, 30)];
@@ -81,6 +101,21 @@
 //    [nav_button setTitle:@"同类活动" forState:UIControlStateNormal];
 //    [nav_button.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:13]];
     // Do any additional setup after loading the view.
+}
+
+- (IBAction)choseType:(id)sender {
+    UIBarButtonItem *item = (UIBarButtonItem *)sender;
+    if (Tview.hidden == NO) {
+        
+        item.image = [UIImage imageNamed:@"5"];
+        Tview.hidden = YES;
+    }
+    else{
+        Tview.hidden = NO;
+        item.image = [UIImage imageNamed:@"6"];
+    }
+    
+    
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 4;
@@ -104,7 +139,7 @@
     if(indexPath.section == 0){
         [tableview registerClass:[TeachCell class] forCellReuseIdentifier:@"Cellone"];
         TeachCell *cell = [tableview dequeueReusableCellWithIdentifier:@"Cellone"];
-        cell.image.image = [UIImage imageNamed:@"1"];
+        cell.image.image = [UIImage imageNamed:@"0.jpg"];
         cell.lableone.text = @"赵忠良";
         cell.labletwo.text = @"石家庄-国大集---团董事--长董事长 冻柿子昂";
         cell.labletwo.numberOfLines = 2;
@@ -164,7 +199,10 @@
         view.backgroundColor = [UIColor whiteColor];
         for(int i = 0;i <3;i ++){
             UIView *vie = [[UIView alloc]initWithFrame:CGRectMake(10 +10*i+(view.frame.size.width-40)/3*i, 10, (view.frame.size.width-40)/3, 100)];
-            vie.backgroundColor = [UIColor groupTableViewBackgroundColor];
+            //vie.backgroundColor = [UIColor groupTableViewBackgroundColor];
+            vie.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"123"]];
+            vie.layer.masksToBounds = YES;
+            vie.layer.cornerRadius = 8;
             [view addSubview:vie];
         }
         [cell addSubview:view];
@@ -221,10 +259,6 @@
     [[self rdv_tabBarController] setTabBarHidden:YES animated:YES];
 }
 
--(void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
-}
 
 -(void)tijiao{
     TijiaoViewController *tijiao = [[TijiaoViewController alloc]init];

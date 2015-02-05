@@ -9,8 +9,8 @@
 #import "ProjectDetailViewController.h"
 #import "RDVTabBarController.h"
 
-@interface ProjectDetailViewController ()<UITableViewDataSource,UITableViewDelegate>
 
+@interface ProjectDetailViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *projectDetailTableView;
 
 @end
@@ -19,14 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+   
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 4;
 }
@@ -102,7 +102,7 @@
 
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
+//    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
 }
 /*
 #pragma mark - Navigation

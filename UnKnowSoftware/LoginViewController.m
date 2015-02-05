@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewController.h"
-
+#import "ForgetViewController.h"
 @interface LoginViewController ()<UITextFieldDelegate>
 
 @end
@@ -45,6 +45,10 @@
     _texttwo.delegate = self;
     
     
+}
+- (IBAction)push_forget:(id)sender {
+    ForgetViewController *forget = [[ForgetViewController alloc]init];
+    [self presentViewController:forget animated:YES completion:nil];
 }
 -(void)textFieldDidBeginEditing:(UITextField *)textField{
     [self.view setFrame:CGRectMake(0, -70, self.view.frame.size.width, self.view.frame.size.height)];

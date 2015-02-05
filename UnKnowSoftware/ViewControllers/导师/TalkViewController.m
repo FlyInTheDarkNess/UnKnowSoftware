@@ -7,6 +7,7 @@
 //
 
 #import "TalkViewController.h"
+#import "RDVTabBarController.h"
 
 @interface TalkViewController ()
 
@@ -16,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"建立约谈";
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(10, 80, self.view.frame.size.width - 20, 170)];
     [self.view addSubview:view];
@@ -82,6 +82,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[self rdv_tabBarController] setTabBarHidden:YES animated:YES];
+}
+
 
 /*
 #pragma mark - Navigation

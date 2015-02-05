@@ -10,7 +10,13 @@
 #import "InvestorsCell.h"
 #import "TalkViewController.h"
 #import "TeachdetailViewController.h"
+#import "shaixuanTableView.h"
+#import "RDVTabBarController.h"
+
 @interface TeacherViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    shaixuanTableView *view;
+}
 @property(nonatomic,strong)UITableView *tableview;
 @end
 
@@ -29,14 +35,36 @@
     tableview.dataSource = self;
     [self.view addSubview:tableview];
     
+    view = [[shaixuanTableView alloc]initWithFrame:CGRectMake(0, 64, 160, [UIScreen mainScreen].bounds.size.height)];
+    view.backgroundColor = [UIColor blackColor];
+    view.TypeArr = @[@"推荐",@"全部方向",@"电子商务",@"移动互联网"];
+    [self.view addSubview:view];
+    view.hidden = YES;
+    
     // Do any additional setup after loading the view.
 }
+
+- (IBAction)choseType:(id)sender {
+    UIBarButtonItem *item = (UIBarButtonItem *)sender;
+    if (view.hidden == NO) {
+        
+        item.image = [UIImage imageNamed:@"5"];
+        view.hidden = YES;
+    }
+    else{
+        view.hidden = NO;
+        item.image = [UIImage imageNamed:@"6"];
+    }
+    
+    
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 10;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     InvestorsCell *cell = [tableview dequeueReusableCellWithIdentifier:@"Cell"];
-    cell.head_image.image = [UIImage imageNamed:@"1"];
+    cell.head_image.image = [UIImage imageNamed:@"0.jpg"];
     cell.head_image.layer.masksToBounds = YES;
     cell.head_image.layer.cornerRadius = 5;
     cell.lable_one.text = @"赵忠良";
@@ -66,6 +94,12 @@
     TalkViewController *talk = [[TalkViewController alloc]init];
     [self.navigationController pushViewController:talk animated:YES];
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[self rdv_tabBarController] setTabBarHidden:NO animated:YES];
+}
+
 /*
 #pragma mark - Navigation
 
